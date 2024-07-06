@@ -8,6 +8,6 @@ app.get("/",(req,res)=>{
     res.send("SERVER 123 IS RUNNING")
 })
 
-app.listen(PORT, ()=>{
+app.listen(PORT, '0.0.0.0', ()=>{
     console.log(`Server is listening on port ${PORT}`);
 })
